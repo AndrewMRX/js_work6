@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример 3 с массивами</title>
+</head>
+<body>
+  <script type = "text/javascript">
+    const compact = (array) => array.filter ( (el) => el);
+    const data = [0, 1, false, 2, undefined, '', 3, null];
+    console.log('Исходный массив: ');
+    console.log(data);
+    console.log('Очищенный массив: ' + compact(data));
+    alert('Результат выведен в консоль');
+  </script>
+</body>
+</html>
